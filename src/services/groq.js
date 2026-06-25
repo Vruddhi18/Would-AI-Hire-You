@@ -32,7 +32,7 @@ const personas = {
 
 export async function evaluateWithPersona(personaKey, resumeText, role, jobDescription) {
   const apiKey = GROQ_API_KEY
-  if (!apiKey) throw new Error('No Groq API key found. Add VITE_GROQ_API_KEY to your .env file.')
+  if (!apiKey) throw new Error('Internal Error')
   const persona = personas[personaKey]
 
   const userContent = `

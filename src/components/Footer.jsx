@@ -16,13 +16,22 @@ export default function Footer() {
           Would AI Hire You?
         </div>
         <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.6rem', color: 'var(--gray)', letterSpacing: '0.1em' }}>
-          NO DATA STORED · BROWSER-ONLY · POWERED BY GROQ
+          @2026 Vruddhi Shah. All rights reserved.
         </div>
       </div>
       <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.65rem', color: 'var(--gray)', letterSpacing: '0.08em', lineHeight: 1.8, textAlign: 'right' }}>
         <div>Built with ♥ by Vruddhi</div>
-        <div style={{ color: 'var(--green)', marginTop: '0.25rem' }}>vruddhishah.vercel.app</div>
-      </div>
+          <div style={{ marginTop: '0.25rem' }}>
+            <a
+              href="https://vruddhishah.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: 'var(--green)', textDecoration: 'none' }}
+            >
+              vruddhishah.vercel.app
+            </a>
+          </div>     
+           </div>
     </footer>
   )
 }

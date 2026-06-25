@@ -106,7 +106,7 @@ export default function Hero({ onStart }) {
         marginBottom: '3rem',
         opacity: 0,
       }}>
-        Drop your resume. Pick the role. Four ruthless AI personas tear it apart and give you a verdict in 30 seconds. No flattery. No BS.
+        Drop your resume. Pick the role. Four ruthless AI personas tear it apart and give you a verdict in 30 seconds.
       </p>
 
       <button className="hero-btn" onClick={onStart} style={{
