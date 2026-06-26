@@ -46,4 +46,3 @@ npm run build
 ## Privacy
 
 Resumes are parsed entirely in the browser. Nothing is stored or transmitted except to the Groq API for evaluation.
-# Would-AI-Hire-You
